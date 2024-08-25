@@ -1,0 +1,6 @@
+services:
+  op:
+    build: .
+    ports:
+      - "9100:8000"
+    restart: "unless-stopped"
